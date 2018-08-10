@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ruby.rubyproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/ruby-project/1">
+            <name>vestal_versions</name>
+            <source-roots>
+                <root id="src.dir"/>
+                <root id="lib.dir"/>
+                <root id="generators.dir"/>
+                <root id="vestal_versions.dir"/>
+                <root id="spec.dir"/>
+                <root id="support.dir"/>
+                <root id="RubyProject222.dir"/>
+            </source-roots>
+            <test-roots/>
+        </data>
+    </configuration>
+</project>
