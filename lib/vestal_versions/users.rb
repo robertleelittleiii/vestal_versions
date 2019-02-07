@@ -26,7 +26,7 @@ module VestalVersions
     extend ActiveSupport::Concern
 
     included do
-      belongs_to :user, :polymorphic => true
+      belongs_to :user, :polymorphic => true, optional: true
 
   #     alias_method :user, :name
   #     alias_method :user=, :name

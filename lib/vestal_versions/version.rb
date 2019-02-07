@@ -8,7 +8,7 @@ module VestalVersions
     include ActiveSupport::Configurable
 
     # Associate polymorphically with the parent record.
-    belongs_to :versioned, :polymorphic => true
+    belongs_to :versioned, :polymorphic => true, optional: true
 
     if ActiveRecord::VERSION::MAJOR == 3
       attr_accessible :modifications, :number, :user, :tag, :reverted_from
