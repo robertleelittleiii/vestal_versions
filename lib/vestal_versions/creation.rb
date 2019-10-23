@@ -6,8 +6,8 @@ module VestalVersions
 
     included do
       after_create :create_initial_version, :if => :create_initial_version?
-      after_update :create_version, :if => :create_version?
-      after_update :update_version, :if => :update_version?
+      after_commit :create_version, :if => :create_version?
+      after_commit :update_version, :if => :update_version?
     end
 
     # Class methods added to ActiveRecord::Base to facilitate the creation of new versions.
